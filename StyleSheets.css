@@ -224,18 +224,23 @@ ul {
 
 .container-page-3 {
   display: flex;
-  position: relative;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: start;
+  /*position: relative;
   width: 1230px;
-  height: 890px;
+  height: 890px;*/
 }
 
 .expression-page-3 {
-  position: absolute;
+  /*position: absolute;*/
   background: #ffffff;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-right: 36px;
+  margin-bottom: 36px;
 }
 
-.expression-2 {
+/*.expression-2 {
   top: 123px;
 }
 
@@ -297,7 +302,7 @@ ul {
 .expression-15 {
   top: 738px;
   left: 875px;
-}
+}**/
 
 .expression-text {
   margin: 20px 30px;
@@ -514,6 +519,15 @@ td {
   padding-bottom: 180px;
 }
 
+.text-container-page-7 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.text-page-7 {
+  max-width: 520px;
+  margin-right: 90px;
+}
+
 .h3-page-7 {
   margin-top: 70px;
   margin-left: 90px;
@@ -521,6 +535,7 @@ td {
 
 .cards-container-page-7 {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .cards-page-7 {
